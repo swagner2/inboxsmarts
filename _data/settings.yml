@@ -1,0 +1,98 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+general:
+  introBackground: "/assets/img/background.jpg"
+  headerBackground: "/assets/img/header.jpg"
+
+### Header
+header:
+  logo:
+    image: "assets/img/logo.png"
+    alt: "logo"
+    title: "Retention XT"
+  button:
+    text: "Book A Call"
+    link: "#"
+    attributes:
+      data-cal-link: "stevenwagner/retentionxt"
+      data-cal-namespace: "retentionxt"
+      data-cal-config: '{"layout":"month_view"}'
+
+### Social
+social:
+  - title: "Facebook"
+    icon: "fa-brands fa-facebook-f"
+    url: "https://www.facebook.com/"
+
+  - title: "Twitter"
+    icon: "fa-brands fa-twitter"
+    url: "https://www.twitter.com/"
+
+  - title: "Instagram"
+    icon: "fa-brands fa-instagram"
+    url: "https://www.instagram.com/"
+
+  - title: "Medium"
+    icon: "fa-solid fa-m"
+    url: "https://www.medium.com/"
+
+  - title: "Linkedin"
+    icon: "fa-brands fa-linkedin-in"
+    url: "https://www.linkedin.com/"
+
+### Footer
+footer:
+  description: "Turn Klaviyo Chaos into Predictable Revenue Growth. Book A Call Today."
+  copyright: "RetentionXT © 2015-2024 - All Rights Reserved | Developed by <a href=\"https://salesignition.com\" target=\"_blank\">SJW Ventures, LLC</a>"
+
+  menu:
+    title: "Additional Links"
+    list:
+      - title: "About Us"
+        link: "/about/"
+
+      - title: "Services"
+        link: "/services/"
+
+      - title: "Team"
+        link: "/team/"
+      
+      - title: "News"
+        link: "/blog/"
+
+      - title: "Contact Us"
+        link: "/contact/"
+
+  news:
+    title: "Latest News"
+    numOfItems: 2
+
+  subscribe:
+    title: "Subscribe"
+    text: "Sign up to get a weekly DTC Email breakdown."
+
+  # Mailchimp settings (remove or comment out these lines)
+  # mailchimp:
+  #   url: "https://bslthemes.us21.list-manage.com/subscribe/post?u=e57127f785a6d278d2535bd53&amp;id=dd56743ee5&amp;f_id=000dfee1f0" #YOUR MAILCHIMP EMBED FORM URL [form action=""]
+  #   key: "b_e57127f785a6d278d2535bd53_dd56743ee5" #YOUR MAILCHIMP EMBED FORM KEY VALUE [input hidden name=""]
+
+  # Klaviyo settings (add these lines)
+  klaviyo:
+    url: "https://manage.kmail-lists.com/subscriptions/subscribe?a=Mzfpkb&g=XZdA7M" #YOUR KLAVIYO EMBED FORM URL
+    key: "pk_057803b4a5bdf2a44d15755883444c115c" #YOUR KLAVIYO EMBED FORM KEY VALUE [input hidden name=""]
+
+### Portfolio Filters Settings
+portfolio:
+  homeNumOfItems: 12
+  filters:
+    - name: "Design"
+      slug: "design"
+
+    - name: "Retention"
+      slug: "retention"
+
+    - name: "Strategy"
+      slug: "strategy"
